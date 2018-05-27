@@ -2,6 +2,8 @@ language: python
 python:
   - 3.6
 
-script:
+install:
   - pip install  requirements.txt
+
+script:
   - python test_prime.py
